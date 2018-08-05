@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Viewer Page</title>
+    </head>
+    <body style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;">
+        <div id="app" class="full-height"></div>
+        <script src="https://localhost.rig.twitch.tv:3000/twitch-ext.js"></script>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.min.js"></script>
+        <script src="oauth-1.0a.js"></script>
+        <script src="app.js" type="text/javascript"></script>
+        <div>
+            <input id="track-id-entry" type="text" placeholder="enter track id" />
+            <input type="text" id="heart-rate-box" placeholder="Enter a heart rate" />
+            <audio id="player" crossorigin="anonymous" />
+        </div>
+        <canvas id="myCanvas" width="500" height="250" style="border:1px solid #d3d3d3; background: url('https://www.maketecheasier.com/assets/uploads/2017/06/gnome-twitch-stream.jpg')">
+        <div id="list">
+        </div>
+    </body>
+</html>
